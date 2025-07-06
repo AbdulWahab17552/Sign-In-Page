@@ -2,32 +2,38 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css" />
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">MySite</div>
-      <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome to MySite</h1>
-      <p>Your one-stop solution for web excellence.</p>
-      <div class="button-group">
-        <a href="#" class="btn">Get Started</a>
-        <a href="signin.html" class="btn sign-in-btn">Sign In</a>
+  <div class="container">
+    <form class="signup-form">
+      <h2>Create Account</h2>
+      
+      <div class="input-group">
+        <label for="fullname">Full Name</label>
+        <input type="text" id="fullname" name="fullname" required />
       </div>
-    </div>
-  </section>
+      
+      <div class="input-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" required />
+      </div>
+      
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required />
+      </div>
+
+      <button type="submit">Sign Up</button>
+      <p class="signin-link">Already have an account? <a href="signin.html">Sign In</a></p>
+    </form>
+  </div>
 </body>
 </html>
