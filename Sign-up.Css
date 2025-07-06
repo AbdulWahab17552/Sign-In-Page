@@ -19,10 +19,10 @@ body {
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
   width: 100%;
-  max-width: 400px;
+  max-width: 450px;
 }
 
-.signin-form h2 {
+.signup-form h2 {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #333;
@@ -62,13 +62,13 @@ button:hover {
   background-color: #3d42b3;
 }
 
-.signup-link {
+.signin-link {
   text-align: center;
   margin-top: 1rem;
   font-size: 0.9rem;
 }
 
-.signup-link a {
+.signin-link a {
   color: #4e54c8;
   text-decoration: none;
 }
